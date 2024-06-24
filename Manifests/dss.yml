@@ -31,7 +31,7 @@ spec:
         - name: yelp-camp-container
           image: vaibguptab/campa:latest
           ports:
-            - containerPort: 3001
+            - containerPort: 3000
           env:
             - name: CLOUDINARY_CLOUD_NAME
               valueFrom:
