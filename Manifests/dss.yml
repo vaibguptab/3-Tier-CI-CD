@@ -9,7 +9,7 @@ data:
   CLOUDINARY_KEY: NDQ3NTI3MjQ1MTc3NjQ4Cg==
   CLOUDINARY_SECRET: OVdBQWRwMWxqako5c0lvenkycnB5SVU4dFBVCg==
   MAPBOX_TOKEN: cGsuZXlKMUlqb2lkbUZwWW1kMWNIUmhZaUlzSW1FaU9pSmpiSGh5WVc5dWJIQXhOREZpTW1wemFHMDVkVFEzTTNjekluMC4wWWRQb3hTOFlRT1lpdlpjRnBITUN3Cg==
-  DB_URL: bW9uZ29kYitzcnY6Ly92YWliZ3VwdGFiOjJDdXpwbVRPNGNKNzN2QXRAdmFpYmd1cHRhYi5sZmJ6am92Lm1vbmdvZGIubmV0Lz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHkmYXBwTmFtZT12YWliZ3VwdGFiCg== 
+  DB_URL: bW9uZ29kYitzcnY6Ly92YWliZ3VwdGFiOjJDdXpwbVRPNGNKNzN2QXRAdmFpYmd1cHRhYi5sZmJ6am92Lm1vbmdvZGIubmV0Lz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHkmYXBwTmFtZT12YWliZ3VwdGFiCg==
   SECRET: ZGV2b3Bzc2hhY2sk
 
 ---
@@ -29,9 +29,9 @@ spec:
     spec:
       containers:
         - name: yelp-camp-container
-          image: adijaiswal/campa:latest
+          image: vaibguptab/campa:latest
           ports:
-            - containerPort: 3000
+            - containerPort: 3001
           env:
             - name: CLOUDINARY_CLOUD_NAME
               valueFrom:
